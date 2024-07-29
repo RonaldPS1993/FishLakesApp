@@ -22,6 +22,14 @@
     },
     "web": {
       "favicon": "./assets/fishlakes.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow FishLakes to use your location."
+        }
+      ]
+    ]
   }
 }
